@@ -1,0 +1,217 @@
+{
+  "schemaVersion": "yesjun-public-image-references/1",
+  "revision": "starter-r1",
+  "updatedOn": "2026-11-02",
+  "purpose": "Dots·ChatGPT 등에서 자막을 바탕으로 이미지를 생성할 때 전달하는 공개 시각 참고집",
+  "role": "참고용 배포본. 공통 컴포넌트·게임 원화의 수정 정본을 대체하지 않음",
+  "assets": [
+    {
+      "id": "01-yesjun-character",
+      "title": "예스준 정본 캐릭터",
+      "role": "character",
+      "path": "design-system/asset-packs/starter-r1/01-yesjun-character.png",
+      "sha256": "472e554906abf98d545f48b9a60b3777cc331ca4b2d969840db43de0a549f97c",
+      "bytes": 1032496,
+      "width": 1280,
+      "height": 1280,
+      "format": "image/png",
+      "referenceUse": "검은 짧은 투블럭, 흰 티셔츠, 검정 바지, 흰 신발, 얼굴과 체형. 4×4 보행 아틀라스이며 장면 전체를 16명으로 그리라는 뜻이 아닙니다.",
+      "reviewStatus": "기존 정본 캐릭터; 원본 그대로 공개 참고",
+      "publication": "2026-11-02 사용자 요청에 따른 공개 이미지 생성 레퍼런스",
+      "source": {
+        "type": "existing-generated-project-art",
+        "unchangedBytes": true,
+        "repository": "imakerjun/yesjun-creative",
+        "path": "design-system/asset-packs/asahikawa-r1/yesjun-traveler-r1.png",
+        "previousPublicUrl": "https://yesjun-design-system.vercel.app/assets/yesjun-traveler-r1.png"
+      },
+      "pixelExpression": {
+        "targetForNewWork": null,
+        "existingArtRating": "기존 자산의 등급을 새로 판정하지 않음"
+      },
+      "rawUrl": "https://raw.githubusercontent.com/imakerjun/yesjun-image-references/main/design-system/asset-packs/starter-r1/01-yesjun-character.png"
+    },
+    {
+      "id": "02-explainer-interior",
+      "title": "실내·가게 설명 공간",
+      "role": "world-interior",
+      "path": "design-system/asset-packs/starter-r1/02-explainer-interior.png",
+      "sha256": "2a22914575870ab7ddbb9e2fd37a2dab8a326672933422f4e0be70b043c4ff4b",
+      "bytes": 2614392,
+      "width": 1672,
+      "height": 941,
+      "format": "image/png",
+      "referenceUse": "따뜻한 목재·조명, 가로·세로 통로, 테이블과 주방의 공간 관계. 특정 실제 식당의 복원이 아닌 설명용 공간입니다.",
+      "reviewStatus": "기존 공개 제작 자산",
+      "publication": "2026-11-02 사용자 요청에 따른 공개 이미지 생성 레퍼런스",
+      "source": {
+        "type": "existing-generated-project-art",
+        "unchangedBytes": true,
+        "repository": "imakerjun/yesjun-creative",
+        "path": "design-system/asset-packs/asahikawa-r1/ramen-hall-r1.png",
+        "previousPublicUrl": "https://yesjun-design-system.vercel.app/assets/ramen-hall-r1.png"
+      },
+      "pixelExpression": {
+        "targetForNewWork": null,
+        "existingArtRating": "기존 자산의 등급을 새로 판정하지 않음"
+      },
+      "rawUrl": "https://raw.githubusercontent.com/imakerjun/yesjun-image-references/main/design-system/asset-packs/starter-r1/02-explainer-interior.png"
+    },
+    {
+      "id": "03-water-channel",
+      "title": "인프라·오브젝트 설명",
+      "role": "infrastructure",
+      "path": "design-system/asset-packs/starter-r1/03-water-channel.png",
+      "sha256": "c30f7ba0be4a37667c4bd7d31007a19ff6ac8a491d8ce7981aa7fe17b4c6d528",
+      "bytes": 2812888,
+      "width": 1672,
+      "height": 941,
+      "format": "image/png",
+      "referenceUse": "물과 수로, 주변 구조의 관계를 한눈에 읽는 게임식 설명. 정확한 새 장소의 설계나 역사 자료로 복사하지 않습니다.",
+      "reviewStatus": "기존 공개 제작 자산",
+      "publication": "2026-11-02 사용자 요청에 따른 공개 이미지 생성 레퍼런스",
+      "source": {
+        "type": "existing-generated-project-art",
+        "unchangedBytes": true,
+        "repository": "imakerjun/yesjun-creative",
+        "path": "design-system/asset-packs/asahikawa-r1/snow-channel-r1.png",
+        "previousPublicUrl": "https://yesjun-design-system.vercel.app/assets/snow-channel-r1.png"
+      },
+      "pixelExpression": {
+        "targetForNewWork": null,
+        "existingArtRating": "기존 자산의 등급을 새로 판정하지 않음"
+      },
+      "rawUrl": "https://raw.githubusercontent.com/imakerjun/yesjun-image-references/main/design-system/asset-packs/starter-r1/03-water-channel.png"
+    },
+    {
+      "id": "04-landscape",
+      "title": "풍경·자연 원화",
+      "role": "landscape",
+      "path": "design-system/asset-packs/starter-r1/04-landscape.png",
+      "sha256": "0ed8068d815ab8132690d098583eef22821fa52c76638363b178f110128a6f31",
+      "bytes": 3404854,
+      "width": 1672,
+      "height": 941,
+      "format": "image/png",
+      "referenceUse": "작은 픽셀 경계와 풍부한 풍경 세부, 원경·중경·근경의 깊이. 풍경이 중심인 장면의 참고이며 모든 설명 장면에 건물을 채우지 않습니다.",
+      "reviewStatus": "기존 공개 제작 자산; 새 장면 승인과 구별",
+      "publication": "2026-11-02 사용자 요청에 따른 공개 이미지 생성 레퍼런스",
+      "source": {
+        "type": "existing-generated-project-art",
+        "unchangedBytes": true,
+        "repository": "imakerjun/yesjun-creative",
+        "path": "design-system/asset-packs/asahikawa-r1/furano-landscape-r1.png",
+        "previousPublicUrl": "https://yesjun-design-system.vercel.app/assets/furano-landscape-r1.png"
+      },
+      "pixelExpression": {
+        "targetForNewWork": null,
+        "existingArtRating": "기존 자산의 등급을 새로 판정하지 않음"
+      },
+      "rawUrl": "https://raw.githubusercontent.com/imakerjun/yesjun-image-references/main/design-system/asset-packs/starter-r1/04-landscape.png"
+    },
+    {
+      "id": "05-process-before",
+      "title": "과정 설명 · 이전",
+      "role": "process-before",
+      "path": "design-system/asset-packs/starter-r1/05-process-before.png",
+      "sha256": "86d1f0e8730590f9a2f328c6598bd3c8e2aff554a234e7c94ee04f57c15b428a",
+      "bytes": 3391020,
+      "width": 1672,
+      "height": 941,
+      "format": "image/png",
+      "referenceUse": "같은 카메라의 변화 전 장면. 다음 이미지와 나란히 참고해 대상이 왜 필요한지 전후 차이로 설명합니다.",
+      "reviewStatus": "기존 제작 정지 시안 확인",
+      "publication": "2026-11-02 사용자 요청에 따른 공개 이미지 생성 레퍼런스",
+      "source": {
+        "type": "existing-generated-project-art",
+        "unchangedBytes": true,
+        "repository": "imakerjun/yesjun-creative",
+        "path": "design-system/asset-packs/asahikawa-r1/road-before-r1.png",
+        "previousPublicUrl": "https://yesjun-design-system.vercel.app/assets/road-before-r1.png"
+      },
+      "pixelExpression": {
+        "targetForNewWork": "P2",
+        "existingArtRating": "기존 제작 기록의 목표 등급; 실제 새 출력은 별도 시각 검토"
+      },
+      "rawUrl": "https://raw.githubusercontent.com/imakerjun/yesjun-image-references/main/design-system/asset-packs/starter-r1/05-process-before.png"
+    },
+    {
+      "id": "06-process-after",
+      "title": "과정 설명 · 이후",
+      "role": "process-after",
+      "path": "design-system/asset-packs/starter-r1/06-process-after.png",
+      "sha256": "e8b50ac719a33707d36b4127d1d0b811cfe8c616dcf67df77028f173bb876014",
+      "bytes": 2591796,
+      "width": 1672,
+      "height": 941,
+      "format": "image/png",
+      "referenceUse": "같은 시점과 장소의 변화 후 장면. 카메라·집·표식 위치를 유지한 채 핵심 상태만 바꿉니다. 실제 특정 도로의 복원은 아닙니다.",
+      "reviewStatus": "기존 제작 정지 시안 확인",
+      "publication": "2026-11-02 사용자 요청에 따른 공개 이미지 생성 레퍼런스",
+      "source": {
+        "type": "existing-generated-project-art",
+        "unchangedBytes": true,
+        "repository": "imakerjun/yesjun-creative",
+        "path": "design-system/asset-packs/asahikawa-r1/road-snow-r1.png",
+        "previousPublicUrl": "https://yesjun-design-system.vercel.app/assets/road-snow-r1.png"
+      },
+      "pixelExpression": {
+        "targetForNewWork": "P2",
+        "existingArtRating": "기존 제작 기록의 목표 등급; 실제 새 출력은 별도 시각 검토"
+      },
+      "rawUrl": "https://raw.githubusercontent.com/imakerjun/yesjun-image-references/main/design-system/asset-packs/starter-r1/06-process-after.png"
+    },
+    {
+      "id": "07-food-cutaway",
+      "title": "음식·원리 단면",
+      "role": "food-cutaway",
+      "path": "design-system/asset-packs/starter-r1/07-food-cutaway.png",
+      "sha256": "75b9c9a0d157ba5b4b46a67268d55bf7a37a5d1c06c7e39d877a8af10ded0de7",
+      "bytes": 2031940,
+      "width": 1536,
+      "height": 1024,
+      "format": "image/png",
+      "referenceUse": "선명한 재료 덩어리와 단면, 무엇이 안에 있는지 한눈에 읽는 구도. 실제 음식 사진이나 측정된 과학 단면은 아닙니다.",
+      "reviewStatus": "기존 공개 제작 자산",
+      "publication": "2026-11-02 사용자 요청에 따른 공개 이미지 생성 레퍼런스",
+      "source": {
+        "type": "existing-generated-project-art",
+        "unchangedBytes": true,
+        "repository": "imakerjun/yesjun-creative",
+        "path": "design-system/asset-packs/asahikawa-r1/ramen-cutaway-r1.png",
+        "previousPublicUrl": "https://yesjun-design-system.vercel.app/assets/ramen-cutaway-r1.png"
+      },
+      "pixelExpression": {
+        "targetForNewWork": null,
+        "existingArtRating": "기존 자산의 등급을 새로 판정하지 않음"
+      },
+      "rawUrl": "https://raw.githubusercontent.com/imakerjun/yesjun-image-references/main/design-system/asset-packs/starter-r1/07-food-cutaway.png"
+    },
+    {
+      "id": "08-space-cutaway",
+      "title": "공간·형성 과정 단면",
+      "role": "space-cutaway",
+      "path": "design-system/asset-packs/starter-r1/08-space-cutaway.png",
+      "sha256": "d5aff2c4c248ea33d26ce0a34d2e6617f541c8b931c9a913a1ef0cc578aa4097",
+      "bytes": 3023216,
+      "width": 1672,
+      "height": 941,
+      "format": "image/png",
+      "referenceUse": "수면 위·아래를 한 화면에 연결하는 공간 설명. 새로운 장소의 지형·형성 원인·시대는 별도 자료에 맞춰 그립니다.",
+      "reviewStatus": "기존 공개 제작 자산",
+      "publication": "2026-11-02 사용자 요청에 따른 공개 이미지 생성 레퍼런스",
+      "source": {
+        "type": "existing-generated-project-art",
+        "unchangedBytes": true,
+        "repository": "imakerjun/yesjun-creative",
+        "path": "design-system/asset-packs/asahikawa-r1/pond-cutaway-r1.png",
+        "previousPublicUrl": "https://yesjun-design-system.vercel.app/assets/pond-cutaway-r1.png"
+      },
+      "pixelExpression": {
+        "targetForNewWork": null,
+        "existingArtRating": "기존 자산의 등급을 새로 판정하지 않음"
+      },
+      "rawUrl": "https://raw.githubusercontent.com/imakerjun/yesjun-image-references/main/design-system/asset-packs/starter-r1/08-space-cutaway.png"
+    }
+  ]
+}

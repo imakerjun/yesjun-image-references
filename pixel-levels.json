@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "yesjun-pixel-expression-levels/1",
+  "id": "pixel-expression-p1-p5",
+  "title": "도트 표현 등급",
+  "direction": "숫자가 클수록 픽셀 덩어리와 생략이 강해짐",
+  "scope": "생성·제작한 래스터 그래픽의 시각적 표현. 실사 촬영물은 별도 mediaClass=photograph 또는 footage로 분류",
+  "resolutionIndependent": true,
+  "levels": [
+    {
+      "id": "P1",
+      "value": 1,
+      "label": "정교한 고화질 도트",
+      "shortLabel": "아주 미세한 도트",
+      "description": "아주 작은 픽셀과 풍부한 건축·풍경 세부를 유지한다. 고화질 게임 원화의 깊이를 살리되 사진 같은 미세 질감과 구분한다.",
+      "prompt": "finely crafted high-resolution pixel game illustration, tiny deliberate pixel clusters, detailed architecture and landscape, rich restrained shading, no photographic texture or chunky blocks"
+    },
+    {
+      "id": "P2",
+      "value": 2,
+      "label": "세밀한 게임 그래픽",
+      "shortLabel": "약한 도트",
+      "description": "작은 픽셀 경계와 정리된 명암이 보이지만 건축·음식·표정의 세부를 충분히 유지한다.",
+      "prompt": "fine pixel illustration, restrained texture, small deliberate pixel clusters, detailed readable objects, limited smooth shading"
+    },
+    {
+      "id": "P3",
+      "value": 3,
+      "label": "균형 잡힌 도트",
+      "shortLabel": "중간 도트",
+      "description": "계단형 윤곽과 명암 덩어리가 뚜렷하다. 디테일을 정리해도 장소·물체의 특징은 읽힌다.",
+      "prompt": "balanced pixel art, visible consistent pixel clusters, stepped silhouettes, grouped shading, readable landmark structure, restrained palette"
+    },
+    {
+      "id": "P4",
+      "value": 4,
+      "label": "굵은 도트",
+      "shortLabel": "강한 도트",
+      "description": "큰 사각형과 소수의 명암 단계로 대상을 표현한다. 이동 아이콘처럼 작게 써도 형태가 즉시 읽힌다.",
+      "prompt": "chunky pixel art, large square pixel clusters, simplified silhouette, few clear shading bands, crisp orthogonal steps, no fine photographic texture"
+    },
+    {
+      "id": "P5",
+      "value": 5,
+      "label": "거친 레트로 도트",
+      "shortLabel": "매우 강한 도트",
+      "description": "극도로 단순한 픽셀 덩어리와 제한된 색을 쓴다. 작은 디테일·문자 재현보다 상징적인 형태를 우선한다.",
+      "prompt": "very coarse retro pixel art, minimal large square blocks, very limited colors, iconic simplified shape, no fine texture or gradients"
+    }
+  ],
+  "assessment": {
+    "basis": "최종 합성 화면의 같은 표시 크기에서 윤곽·명암·질감을 함께 육안 판단",
+    "notAMeasurement": "물리적 해상도·비트 수·파일 용량을 측정한 수치가 아님",
+    "unrated": "미분류",
+    "requiredFields": [
+      "level",
+      "reviewStatus",
+      "basis"
+    ],
+    "allowedReviewStatus": [
+      "requested",
+      "visually-reviewed",
+      "unrated"
+    ],
+    "preserveOnUpscale": true,
+    "changePolicy": "도트 등급 변경은 실제 원화의 표현을 바꾸는 작업. CSS image-rendering이나 단순 축소·최근접 확대만으로 등급을 변경했다고 보고하지 않음"
+  },
+  "requestExamples": [
+    "풍경 맵은 P2, 인물은 정본 예스준으로 해줘",
+    "기존 고화질 도트 P1은 유지하고 전차 아이콘만 P4로 해줘",
+    "같은 구도를 P1과 P2로 비교해줘"
+  ],
+  "defaultPolicy": "풍경 중심 게임 맵은 P1~P2의 고화질 도트 느낌. 새 풍경 시안은 P2부터 검토. 기존 승인 P1 원화 유지. 다른 역할은 현재 원화·프로필을 유지하고 요청·실제 검토 등급을 구별.",
+  "roleDefaults": {
+    "landscape-map": {
+      "preferredLevels": [
+        "P1",
+        "P2"
+      ],
+      "newDraftLevel": "P2",
+      "source": "2026-10-28 사용자 후속 정정: 풍경 중심 게임맵은 P2나 P1의 기존 고화질 도트 느낌",
+      "qualities": [
+        "풍경·건축 세부 유지",
+        "사진 같은 미세 질감 억제",
+        "큰 레트로 픽셀 블록 억제"
+      ],
+      "existingApprovedArt": "유지. 소급 일괄 변경하지 않음"
+    },
+    "character-object-symbol": {
+      "policy": "장면 역할과 기존 승인 표현을 따로 기록. 풍경과 같은 등급을 강제하지 않음"
+    }
+  }
+}
